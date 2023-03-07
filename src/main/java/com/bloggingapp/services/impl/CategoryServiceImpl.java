@@ -1,4 +1,4 @@
-package com.codewithdurgesh.blog.services.impl;
+package com.bloggingapp.services.impl;
 
 import java.util.List;
 import java.util.stream.Collector;
@@ -8,11 +8,11 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.codewithdurgesh.blog.entities.Category;
-import com.codewithdurgesh.blog.exceptions.ResourceNotFoundException;
-import com.codewithdurgesh.blog.payloads.CategoryDto;
-import com.codewithdurgesh.blog.repositories.CategoryRepo;
-import com.codewithdurgesh.blog.services.CategoryService;
+import com.bloggingapp.entities.Category;
+import com.bloggingapp.exceptions.ResourceNotFoundException;
+import com.bloggingapp.payloads.CategoryDto;
+import com.bloggingapp.repositories.CategoryRepo;
+import com.bloggingapp.services.CategoryService;
 
 @Service
 public class CategoryServiceImpl implements CategoryService {

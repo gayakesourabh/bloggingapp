@@ -1,4 +1,4 @@
-package com.codewithdurgesh.blog.services;
+package com.bloggingapp.services;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

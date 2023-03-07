@@ -1,4 +1,4 @@
-package com.codewithdurgesh.blog.repositories;
+package com.bloggingapp.repositories;
 
 import java.util.List;
 
@@ -6,9 +6,9 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
-import com.codewithdurgesh.blog.entities.Category;
-import com.codewithdurgesh.blog.entities.Post;
-import com.codewithdurgesh.blog.entities.User;
+import com.bloggingapp.entities.Category;
+import com.bloggingapp.entities.Post;
+import com.bloggingapp.entities.User;
 
 public interface PostRepo extends JpaRepository<Post, Integer> {
 

@@ -1,4 +1,4 @@
-package com.codewithdurgesh.blog.controllers;
+package com.bloggingapp.controllers;
 
 import java.security.Principal;
 import java.util.Optional;
@@ -23,14 +23,14 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.codewithdurgesh.blog.entities.User;
-import com.codewithdurgesh.blog.exceptions.ApiException;
-import com.codewithdurgesh.blog.payloads.JwtAuthRequest;
-import com.codewithdurgesh.blog.payloads.JwtAuthResponse;
-import com.codewithdurgesh.blog.payloads.UserDto;
-import com.codewithdurgesh.blog.repositories.UserRepo;
-import com.codewithdurgesh.blog.security.JwtTokenHelper;
-import com.codewithdurgesh.blog.services.UserService;
+import com.bloggingapp.entities.User;
+import com.bloggingapp.exceptions.ApiException;
+import com.bloggingapp.payloads.JwtAuthRequest;
+import com.bloggingapp.payloads.JwtAuthResponse;
+import com.bloggingapp.payloads.UserDto;
+import com.bloggingapp.repositories.UserRepo;
+import com.bloggingapp.security.JwtTokenHelper;
+import com.bloggingapp.services.UserService;
 
 @RestController
 @RequestMapping("/api/v1/auth/")

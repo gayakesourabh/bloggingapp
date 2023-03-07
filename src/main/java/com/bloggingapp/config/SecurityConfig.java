@@ -1,4 +1,4 @@
-package com.codewithdurgesh.blog.config;
+package com.bloggingapp.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
@@ -24,9 +24,9 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
-import com.codewithdurgesh.blog.security.CustomUserDetailService;
-import com.codewithdurgesh.blog.security.JwtAuthenticationEntryPoint;
-import com.codewithdurgesh.blog.security.JwtAuthenticationFilter;
+import com.bloggingapp.security.CustomUserDetailService;
+import com.bloggingapp.security.JwtAuthenticationEntryPoint;
+import com.bloggingapp.security.JwtAuthenticationFilter;
 
 @Configuration
 @EnableWebSecurity

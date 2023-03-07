@@ -1,4 +1,4 @@
-package com.codewithdurgesh.blog.services.impl;
+package com.bloggingapp.services.impl;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -12,7 +12,7 @@ import java.util.UUID;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.codewithdurgesh.blog.services.FileService;
+import com.bloggingapp.services.FileService;
 
 @Service
 public class FileServiceImpl implements FileService {

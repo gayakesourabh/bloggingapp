@@ -1,4 +1,4 @@
-package com.codewithdurgesh.blog.security;
+package com.bloggingapp.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -6,9 +6,9 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.codewithdurgesh.blog.entities.User;
-import com.codewithdurgesh.blog.exceptions.ResourceNotFoundException;
-import com.codewithdurgesh.blog.repositories.UserRepo;
+import com.bloggingapp.entities.User;
+import com.bloggingapp.exceptions.ResourceNotFoundException;
+import com.bloggingapp.repositories.UserRepo;
 
 @Service
 public class CustomUserDetailService implements UserDetailsService {

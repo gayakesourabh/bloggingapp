@@ -1,8 +1,8 @@
-package com.codewithdurgesh.blog.services;
+package com.bloggingapp.services;
 
 import java.util.List;
 
-import com.codewithdurgesh.blog.payloads.CategoryDto;
+import com.bloggingapp.payloads.CategoryDto;
 
 public interface CategoryService {
 

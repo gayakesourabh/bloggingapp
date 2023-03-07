@@ -1,4 +1,4 @@
-package com.codewithdurgesh.blog.payloads;
+package com.bloggingapp.payloads;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -9,7 +9,7 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
-import com.codewithdurgesh.blog.entities.Role;
+import com.bloggingapp.entities.Role;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 

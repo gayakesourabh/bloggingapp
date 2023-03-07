@@ -1,8 +1,8 @@
-package com.codewithdurgesh.blog.repositories;
+package com.bloggingapp.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.codewithdurgesh.blog.entities.Role;
+import com.bloggingapp.entities.Role;
 
 public interface RoleRepo  extends JpaRepository<Role, Integer>{
 

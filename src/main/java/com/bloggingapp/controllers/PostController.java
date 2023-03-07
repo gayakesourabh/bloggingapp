@@ -1,4 +1,4 @@
-package com.codewithdurgesh.blog.controllers;
+package com.bloggingapp.controllers;
 
 
 import java.io.IOException;
@@ -25,13 +25,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.codewithdurgesh.blog.config.AppConstants;
-import com.codewithdurgesh.blog.entities.Post;
-import com.codewithdurgesh.blog.payloads.ApiResponse;
-import com.codewithdurgesh.blog.payloads.PostDto;
-import com.codewithdurgesh.blog.payloads.PostResponse;
-import com.codewithdurgesh.blog.services.FileService;
-import com.codewithdurgesh.blog.services.PostService;
+import com.bloggingapp.config.AppConstants;
+import com.bloggingapp.entities.Post;
+import com.bloggingapp.payloads.ApiResponse;
+import com.bloggingapp.payloads.PostDto;
+import com.bloggingapp.payloads.PostResponse;
+import com.bloggingapp.services.FileService;
+import com.bloggingapp.services.PostService;
 
 @RestController
 @RequestMapping("/api/v1/")

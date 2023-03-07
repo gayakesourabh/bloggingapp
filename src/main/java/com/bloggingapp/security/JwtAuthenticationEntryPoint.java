@@ -1,4 +1,4 @@
-package com.codewithdurgesh.blog.security;
+package com.bloggingapp.security;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package com.codewithdurgesh.blog.controllers;
+package com.bloggingapp.controllers;
 
 import java.util.List;
 
@@ -17,9 +17,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.codewithdurgesh.blog.payloads.ApiResponse;
-import com.codewithdurgesh.blog.payloads.CategoryDto;
-import com.codewithdurgesh.blog.services.CategoryService;
+import com.bloggingapp.payloads.ApiResponse;
+import com.bloggingapp.payloads.CategoryDto;
+import com.bloggingapp.services.CategoryService;
 
 @RestController
 @RequestMapping("/api/v1/categories")

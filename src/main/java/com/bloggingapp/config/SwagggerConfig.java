@@ -1,4 +1,4 @@
-package com.codewithdurgesh.blog.config;
+package com.bloggingapp.config;
 
 import java.util.Arrays;
 import java.util.Collections;

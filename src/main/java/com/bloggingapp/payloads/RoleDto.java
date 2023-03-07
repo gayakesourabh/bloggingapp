@@ -1,4 +1,4 @@
-package com.codewithdurgesh.blog.payloads;
+package com.bloggingapp.payloads;
 
 import lombok.Data;
 

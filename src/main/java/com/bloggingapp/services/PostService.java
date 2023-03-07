@@ -1,10 +1,10 @@
-package com.codewithdurgesh.blog.services;
+package com.bloggingapp.services;
 
 import java.util.List;
 
-import com.codewithdurgesh.blog.entities.Post;
-import com.codewithdurgesh.blog.payloads.PostDto;
-import com.codewithdurgesh.blog.payloads.PostResponse;
+import com.bloggingapp.entities.Post;
+import com.bloggingapp.payloads.PostDto;
+import com.bloggingapp.payloads.PostResponse;
 
 public interface PostService {
 

@@ -1,4 +1,4 @@
-package com.codewithdurgesh.blog.config;
+package com.bloggingapp.config;
 
 public class AppConstants {
 

@@ -1,4 +1,4 @@
-package com.codewithdurgesh.blog.exceptions;
+package com.bloggingapp.exceptions;
 
 public class ApiException extends RuntimeException {
 

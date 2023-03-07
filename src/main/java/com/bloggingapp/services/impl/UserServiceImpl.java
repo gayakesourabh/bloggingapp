@@ -1,4 +1,4 @@
-package com.codewithdurgesh.blog.services.impl;
+package com.bloggingapp.services.impl;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -8,12 +8,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.codewithdurgesh.blog.exceptions.*;
-import com.codewithdurgesh.blog.payloads.UserDto;
-import com.codewithdurgesh.blog.services.UserService;
-import com.codewithdurgesh.blog.repositories.*;
-import com.codewithdurgesh.blog.config.AppConstants;
-import com.codewithdurgesh.blog.entities.*;
+import com.bloggingapp.exceptions.*;
+import com.bloggingapp.payloads.UserDto;
+import com.bloggingapp.services.UserService;
+import com.bloggingapp.repositories.*;
+import com.bloggingapp.config.AppConstants;
+import com.bloggingapp.entities.*;
 
 @Service
 public class UserServiceImpl implements UserService {

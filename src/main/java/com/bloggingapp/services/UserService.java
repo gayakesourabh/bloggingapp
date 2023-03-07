@@ -1,8 +1,8 @@
-package com.codewithdurgesh.blog.services;
+package com.bloggingapp.services;
 
 import java.util.List;
 
-import com.codewithdurgesh.blog.payloads.UserDto;
+import com.bloggingapp.payloads.UserDto;
 
 public interface UserService {
 

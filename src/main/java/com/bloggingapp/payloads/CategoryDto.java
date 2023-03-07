@@ -1,4 +1,4 @@
-package com.codewithdurgesh.blog.payloads;
+package com.bloggingapp.payloads;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;

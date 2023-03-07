@@ -1,4 +1,4 @@
-package com.codewithdurgesh.blog.entities;
+package com.bloggingapp.entities;
 
 import java.util.ArrayList;
 import java.util.Collection;

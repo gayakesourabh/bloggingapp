@@ -1,16 +1,16 @@
-package com.codewithdurgesh.blog.services.impl;
+package com.bloggingapp.services.impl;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.codewithdurgesh.blog.entities.Comment;
-import com.codewithdurgesh.blog.entities.Post;
-import com.codewithdurgesh.blog.exceptions.ResourceNotFoundException;
-import com.codewithdurgesh.blog.payloads.CommentDto;
-import com.codewithdurgesh.blog.repositories.CommentRepo;
-import com.codewithdurgesh.blog.repositories.PostRepo;
-import com.codewithdurgesh.blog.services.CommentService;
+import com.bloggingapp.entities.Comment;
+import com.bloggingapp.entities.Post;
+import com.bloggingapp.exceptions.ResourceNotFoundException;
+import com.bloggingapp.payloads.CommentDto;
+import com.bloggingapp.repositories.CommentRepo;
+import com.bloggingapp.repositories.PostRepo;
+import com.bloggingapp.services.CommentService;
 
 @Service
 public class CommentServiceImpl implements CommentService {

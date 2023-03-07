@@ -1,4 +1,4 @@
-package com.codewithdurgesh.blog.services.impl;
+package com.bloggingapp.services.impl;
 
 import java.util.Date;
 import java.util.List;
@@ -12,16 +12,16 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import com.codewithdurgesh.blog.entities.Category;
-import com.codewithdurgesh.blog.entities.Post;
-import com.codewithdurgesh.blog.entities.User;
-import com.codewithdurgesh.blog.exceptions.ResourceNotFoundException;
-import com.codewithdurgesh.blog.payloads.PostDto;
-import com.codewithdurgesh.blog.payloads.PostResponse;
-import com.codewithdurgesh.blog.repositories.CategoryRepo;
-import com.codewithdurgesh.blog.repositories.PostRepo;
-import com.codewithdurgesh.blog.repositories.UserRepo;
-import com.codewithdurgesh.blog.services.PostService;
+import com.bloggingapp.entities.Category;
+import com.bloggingapp.entities.Post;
+import com.bloggingapp.entities.User;
+import com.bloggingapp.exceptions.ResourceNotFoundException;
+import com.bloggingapp.payloads.PostDto;
+import com.bloggingapp.payloads.PostResponse;
+import com.bloggingapp.repositories.CategoryRepo;
+import com.bloggingapp.repositories.PostRepo;
+import com.bloggingapp.repositories.UserRepo;
+import com.bloggingapp.services.PostService;
 
 @Service
 public class PostServiceImpl implements PostService {

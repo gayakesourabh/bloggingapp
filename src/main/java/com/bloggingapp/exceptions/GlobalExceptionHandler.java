@@ -1,4 +1,4 @@
-package com.codewithdurgesh.blog.exceptions;
+package com.bloggingapp.exceptions;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-import com.codewithdurgesh.blog.payloads.ApiResponse;
+import com.bloggingapp.payloads.ApiResponse;
 
 @RestControllerAdvice
 public class GlobalExceptionHandler {

@@ -1,4 +1,4 @@
-package com.codewithdurgesh.blog.controllers;
+package com.bloggingapp.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.codewithdurgesh.blog.payloads.ApiResponse;
-import com.codewithdurgesh.blog.payloads.CommentDto;
-import com.codewithdurgesh.blog.services.CommentService;
+import com.bloggingapp.payloads.ApiResponse;
+import com.bloggingapp.payloads.CommentDto;
+import com.bloggingapp.services.CommentService;
 
 @RestController
 @RequestMapping("/api/v1/")

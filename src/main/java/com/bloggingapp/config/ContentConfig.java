@@ -1,4 +1,4 @@
-package com.codewithdurgesh.blog.config;
+package com.bloggingapp.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.MediaType;

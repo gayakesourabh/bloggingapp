@@ -1,6 +1,6 @@
-package com.codewithdurgesh.blog.services;
+package com.bloggingapp.services;
 
-import com.codewithdurgesh.blog.payloads.CommentDto;
+import com.bloggingapp.payloads.CommentDto;
 
 public interface CommentService {
 
